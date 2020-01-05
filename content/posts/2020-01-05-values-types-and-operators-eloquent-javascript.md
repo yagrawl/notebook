@@ -8,4 +8,4 @@ tags: javascript, basics
 path: /values-types-and-operators
 ---
 
-Introduction
+Introduction.
