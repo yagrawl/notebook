@@ -9,3 +9,5 @@ path: /values-types-and-operators
 ---
 
 Introduction.
+
+![Sample Image](../images/2020-01-05-values-types-and-operators-eloquent-javascript/image1.png)
