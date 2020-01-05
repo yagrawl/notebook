@@ -1,0 +1,66 @@
+{
+  "name": "notes",
+  "private": true,
+  "description": "My Notes - Yash Agrawal.",
+  "version": "1.0.0",
+  "author": "Yash Agrawal <yagrawl2@gmail.com>",
+  "bugs": {
+    "url": "https://github.com/yagrawl/notes/issues"
+  },
+  "dependencies": {
+    "@mdx-js/mdx": "^1.5.1",
+    "@mdx-js/react": "^1.5.1",
+    "babel-plugin-styled-components": "^1.10.0",
+    "gatsby": "^2.18.17",
+    "gatsby-image": "^2.0.39",
+    "gatsby-plugin-feed": "^2.1.1",
+    "gatsby-plugin-google-analytics": "^2.0.18",
+    "gatsby-plugin-manifest": "^2.0.29",
+    "gatsby-plugin-mdx": "^1.0.52",
+    "gatsby-plugin-netlify-cms": "^4.0.0",
+    "gatsby-plugin-offline": "^2.0.25",
+    "gatsby-plugin-react-helmet": "^3.0.12",
+    "gatsby-plugin-sass": "^2.1.20",
+    "gatsby-plugin-sharp": "^2.0.35",
+    "gatsby-plugin-styled-components": "^3.0.7",
+    "gatsby-remark-copy-linked-files": "^2.0.11",
+    "gatsby-remark-embed-youtube": "^0.0.7",
+    "gatsby-remark-images": "^3.1.28",
+    "gatsby-remark-relative-images": "^0.2.3",
+    "gatsby-remark-responsive-iframe": "^2.2.30",
+    "gatsby-remark-smartypants": "^2.0.9",
+    "gatsby-remark-vscode": "^1.0.4",
+    "gatsby-source-filesystem": "^2.0.29",
+    "gatsby-transformer-remark": "^2.3.8",
+    "gatsby-transformer-sharp": "^2.1.18",
+    "netlify-cms-app": "^2.9.1",
+    "node-sass": "^4.13.0",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-helmet": "^5.2.0",
+    "react-switch": "^5.0.0",
+    "react-toggle": "^4.1.1",
+    "styled-components": "^4.2.0"
+  },
+  "devDependencies": {
+    "prettier": "^1.17.0"
+  },
+  "homepage": "https://notes.yagrawal.com",
+  "keywords": [
+    "gatsby"
+  ],
+  "license": "MIT",
+  "main": "n/a",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yagrawl/notes.git"
+  },
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "format": "prettier --write src/**/*.{js,jsx}",
+    "start": "npm run develop",
+    "serve": "gatsby serve",
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\""
+  }
+}

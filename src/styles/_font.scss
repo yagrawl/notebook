@@ -1,0 +1,156 @@
+@font-face {
+  font-family: 'Inconsolata';
+  src: url('../assets/fonts/Inconsolata/Inconsolata-ExtraLight.ttf') format('truetype');
+  font-weight: 100;
+}
+
+@font-face {
+  font-family: 'Inconsolata';
+  src: url('../assets/fonts/Inconsolata/Inconsolata-Light.ttf') format('truetype');
+  font-weight: 200;
+}
+
+@font-face {
+  font-family: 'Inconsolata';
+  src: url('../assets/fonts/Inconsolata/Inconsolata-Regular.ttf') format('truetype');
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: 'Inconsolata';
+  src: url('../assets/fonts/Inconsolata/Inconsolata-Medium.ttf') format('truetype');
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'Inconsolata';
+  src: url('../assets/fonts/Inconsolata/Inconsolata-SemiBold.ttf') format('truetype');
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: 'Inconsolata';
+  src: url('../assets/fonts/Inconsolata/Inconsolata-Bold.ttf') format('truetype');
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: 'Inconsolata';
+  src: url('../assets/fonts/Inconsolata/Inconsolata-Black.ttf') format('truetype');
+  font-weight: 700;
+}
+
+$font-family: 'Inconsolata';
+$font-size: 20px;
+$font-weight: 300;
+
+%font {
+  font-family: $font-family;
+  font-size: $font-size;
+  font-weight: $font-weight;
+}
+
+.blog {
+  font-family: $font-family;
+  font-weight: $font-weight;
+  font-size: 18px;
+}
+
+.blog-title-text-main {
+  font-family: $font-family;
+  font-size: 36px;
+  font-weight: 600;
+}
+
+.blog-title-text-sub {
+  font-family: $font-family;
+  font-size: 24px;
+  font-weight: 300;
+}
+
+.title-text {
+  @extend %font;
+  font-size: 24px;
+}
+
+.bio, .blog-bio {
+  @extend %font;
+  font-size: 18px;
+  font-weight: 100;
+}
+
+.bio-content-text {
+  @extend %font;
+  font-size: 20px;
+}
+
+.bio-title-text {
+  @extend %font;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.category-text-focus,
+.category-text {
+  @extend %font;
+  font-size: 18px;
+}
+
+/* Post Snippet */
+.post-snippet-title {
+  @extend %font;
+  font-size: 24px;
+}
+
+.post-snippet-tag,
+.post-snippet-details {
+  @extend %font;
+  font-weight: 200;
+  font-size: 12px;
+}
+
+.post-snippet-subtitle {
+  @extend %font;
+  font-size: 16px;
+}
+
+.post-content-subheader {
+  @extend %font;
+  font-size: 24px;
+}
+
+.footer-text {
+  @extend %font;
+  font-size: 14px;
+}
+
+.blog a {
+  font-weight: 400;
+}
+
+.related-posts-title {
+  font-family: $font-family;
+  font-weight: 700;
+  font-size: 27px;
+}
+
+.related-posts-snippet-title {
+  @extend %font;
+  font-size: 18px;
+}
+
+@media screen and (max-width: $max-width + 40px) {
+  .category-text-focus,
+  .category-text {
+    font-size: 16px;
+  }
+
+  .post-snippet-title {
+    font-size: 20px;
+  }
+
+  .post-snippet-tag,
+  .post-snippet-details {
+    font-size: 10px;
+  }
+}
