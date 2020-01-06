@@ -8,7 +8,10 @@ body {
   overflow-x: hidden !important;
 }
 
-a { text-decoration: none !important; }
+a {
+  text-decoration: none !important;
+  color: $background-color-light !important; 
+}
 .no-overflow { overflow-x: hidden !important; }
 
 img {
