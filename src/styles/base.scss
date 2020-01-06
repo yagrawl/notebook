@@ -19,6 +19,9 @@ img {
 
 code {
   font-size: 14px !important;
+  color: $post-snippet-details-tag-background;
+  border-radius: 5px;
+  padding: 0 2px;
 }
 
 .link,
